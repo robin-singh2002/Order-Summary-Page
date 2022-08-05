@@ -1,0 +1,135 @@
+body{
+  position: relative;
+  margin: 0;
+  padding: 0;
+background-color: #E8F6EF;
+
+}
+
+.pattern{
+  display: inline-block;
+margin:0;
+padding: 0;
+  position: absolute;
+
+
+}
+
+.hero{
+  border-radius: 5% 5% 0  0;
+  width: 25rem;
+}
+
+.top-container{
+
+
+  background-color: white;
+  border-radius: 5%;
+  padding-bottom: 2rem;
+  text-align: center;
+  width: 25rem;
+  position: absolute;
+  left: 50%;
+top:50%;
+  transform: translate(-50%,10%);
+
+
+
+}
+
+.rate{
+  margin-bottom: 1.3rem;
+  border-radius: 10%;
+  display: inline-block;
+  width:19rem;
+
+  background-color: #F1F9F9;
+
+}
+.Plan{
+margin-left: 0;
+margin-right: 0;
+  vertical-align: middle;
+  color: grey;
+}
+
+b{
+  color: black;
+}
+
+p{
+  color: grey;
+  display: inline-block;
+  font-size: 1rem;
+  vertical-align: middle;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.change{
+margin-left: 5rem;
+  vertical-align: middle;
+}
+.change:hover{
+  text-decoration: none;
+
+}
+
+.icon{
+  float:left;
+  margin-left: 1rem;
+  margin-right: 0;
+padding-top: 1rem;
+
+}
+
+h1{
+  font-family: 'Red Hat Display', sans-serif;
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+.summary{
+
+  margin-bottom: 1.4rem;;
+}
+
+.info{
+  color: grey;
+  margin-top: 0.3rem;
+}
+
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.9rem 0.9rem #dbdbdb;
+  -moz-box-shadow: 0 0.9rem  0.9rem #dbdbdb;
+  box-shadow: 0 0.9rem 0.9rem #dbdbdb;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 1rem;
+  background: #3e25cc;
+  padding: 1rem 4.5rem 1rem 4.5rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background: #8585f2;
+  text-decoration: none;
+}
+
+
+.cancel{
+  display: block;
+  text-decoration: none;
+  color: grey;
+}
+
+.cancel:hover{
+  text-decoration: none;
+  color: black;
+}
